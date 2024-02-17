@@ -1,3 +1,4 @@
+```
 # 2024-02-17 11:04:56 by RouterOS 7.13.4
 # software id = 
 #
@@ -35,3 +36,4 @@ add interface=pppoe-wifi pool-name=ppoe-pool request=address,prefix \
 add interface=ether1-up-lte pool-name=lte-pool request=prefix use-peer-dns=no
 /ipv6 firewall filter
 add action=drop chain=input in-interface-list=WAN
+```
